@@ -1,0 +1,7 @@
+2026/10/22 16:11:35 INFO mlflow.tracking.fluent: Experiment with name 'tp4-fuite' does not exist. Creating a new experiment.
+famille retenue : lgbm
+importance des variables : [('num_dossier_litige', 4.0), ('montant', 0.0), ('anciennete', 0.0), ('freq_24h', 0.0), ('nuit', 0.0)]
+F1 en test, avec la colonne piegee : 1.0
+F1 "en production" (colonne vide) : 0.0
+🏃 View run fuite-dossier-litige at: http://127.0.0.1:5001/#/experiments/2/runs/047adaa261554024866bb66d3974d1c1
+🧪 View experiment at: http://127.0.0.1:5001/#/experiments/2

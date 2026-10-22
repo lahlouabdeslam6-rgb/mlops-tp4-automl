@@ -1,0 +1,38 @@
+{
+  "famille": "lgbm",
+  "f1_test_fuite": 1.0,
+  "f1_production_simulee": 0.0,
+  "importances": [
+    [
+      "num_dossier_litige",
+      4.0
+    ],
+    [
+      "montant",
+      0.0
+    ],
+    [
+      "anciennete",
+      0.0
+    ],
+    [
+      "freq_24h",
+      0.0
+    ],
+    [
+      "nuit",
+      0.0
+    ]
+  ],
+  "meilleure_config": {
+    "n_estimators": 4,
+    "num_leaves": 8,
+    "min_child_samples": 24,
+    "learning_rate": 0.15080280060326612,
+    "log_max_bin": 7,
+    "colsample_bytree": 1.0,
+    "reg_alpha": 0.0009765625,
+    "reg_lambda": 0.04561250779031766
+  },
+  "duree_s": 30.212
+}

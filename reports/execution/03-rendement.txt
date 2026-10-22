@@ -1,0 +1,7 @@
+flaml           budget   10 s -> F1 0.8409
+flaml           budget   30 s -> F1 0.8626
+flaml           budget   60 s -> F1 0.8409
+flaml           budget  120 s -> F1 0.8582
+manuel-rf-500-16       F1 0.8669
+reference-logistique   F1 0.7407
+graphique ecrit : reports/rendement.png

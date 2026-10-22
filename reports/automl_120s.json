@@ -1,0 +1,28 @@
+{
+  "budget_s": 120,
+  "famille": "xgboost",
+  "f1": 0.8582,
+  "f1_validation": 0.8277,
+  "duree_s": 120.56,
+  "familles_essayees": [
+    "lgbm",
+    "rf",
+    "xgboost",
+    "extra_tree",
+    "xgb_limitdepth",
+    "sgd"
+  ],
+  "nb_essais": 144,
+  "meilleure_config": {
+    "n_estimators": 333,
+    "max_leaves": 4,
+    "min_child_weight": 0.06115052475933034,
+    "learning_rate": 0.17876820421463074,
+    "subsample": 0.7335343083405597,
+    "colsample_bylevel": 0.6874325202145412,
+    "colsample_bytree": 0.9715496137104597,
+    "reg_alpha": 0.0022084629913922114,
+    "reg_lambda": 2.4407106398739207
+  },
+  "run_id": "3fade6dd938a4598844a7b7b380fe07c"
+}

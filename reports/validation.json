@@ -1,0 +1,170 @@
+{
+  "controles": "OK",
+  "donnees": 5000,
+  "fraudes": 568,
+  "train": 3750,
+  "test": 1250,
+  "nb_runs": 6,
+  "references": [
+    {
+      "nom": "reference-logistique",
+      "f1": 0.7407,
+      "duree_s": 0.0827,
+      "run_id": "d4970eaf1bb44b449c046d290336b9ef"
+    },
+    {
+      "nom": "manuel-rf-500-16",
+      "f1": 0.8669,
+      "duree_s": 1.3822,
+      "run_id": "451b2d14395c4ceeb218703bb66b430f"
+    }
+  ],
+  "automl": [
+    {
+      "budget_s": 10,
+      "famille": "lgbm",
+      "f1": 0.8409,
+      "f1_validation": 0.8262,
+      "duree_s": 10.085,
+      "familles_essayees": [
+        "lgbm",
+        "rf",
+        "xgboost",
+        "extra_tree",
+        "sgd"
+      ],
+      "nb_essais": 60,
+      "meilleure_config": {
+        "n_estimators": 104,
+        "num_leaves": 4,
+        "min_child_samples": 43,
+        "learning_rate": 0.6558491573833527,
+        "log_max_bin": 5,
+        "colsample_bytree": 0.9051169955870563,
+        "reg_alpha": 0.0009765625,
+        "reg_lambda": 6.492993307502377
+      },
+      "run_id": "dd4710e2b1394119a903de88327b30c3"
+    },
+    {
+      "budget_s": 30,
+      "famille": "lgbm",
+      "f1": 0.8626,
+      "f1_validation": 0.8181,
+      "duree_s": 30.511,
+      "familles_essayees": [
+        "lgbm",
+        "rf",
+        "xgboost",
+        "extra_tree",
+        "sgd"
+      ],
+      "nb_essais": 63,
+      "meilleure_config": {
+        "n_estimators": 54,
+        "num_leaves": 5,
+        "min_child_samples": 9,
+        "learning_rate": 0.5472628622272834,
+        "log_max_bin": 6,
+        "colsample_bytree": 0.8726711946460409,
+        "reg_alpha": 0.0045967453141010405,
+        "reg_lambda": 0.6801326797311897
+      },
+      "run_id": "8c6d9d80e511405e89e5e6c1e0a19472"
+    },
+    {
+      "budget_s": 60,
+      "famille": "lgbm",
+      "f1": 0.8409,
+      "f1_validation": 0.8262,
+      "duree_s": 60.571,
+      "familles_essayees": [
+        "lgbm",
+        "rf",
+        "xgboost",
+        "extra_tree",
+        "xgb_limitdepth",
+        "sgd",
+        "lrl1"
+      ],
+      "nb_essais": 87,
+      "meilleure_config": {
+        "n_estimators": 104,
+        "num_leaves": 4,
+        "min_child_samples": 43,
+        "learning_rate": 0.6558491573833527,
+        "log_max_bin": 5,
+        "colsample_bytree": 0.9051169955870563,
+        "reg_alpha": 0.0009765625,
+        "reg_lambda": 6.492993307502377
+      },
+      "run_id": "852e51493ceb438ca48af9c0518e0f58"
+    },
+    {
+      "budget_s": 120,
+      "famille": "xgboost",
+      "f1": 0.8582,
+      "f1_validation": 0.8277,
+      "duree_s": 120.56,
+      "familles_essayees": [
+        "lgbm",
+        "rf",
+        "xgboost",
+        "extra_tree",
+        "xgb_limitdepth",
+        "sgd"
+      ],
+      "nb_essais": 144,
+      "meilleure_config": {
+        "n_estimators": 333,
+        "max_leaves": 4,
+        "min_child_weight": 0.06115052475933034,
+        "learning_rate": 0.17876820421463074,
+        "subsample": 0.7335343083405597,
+        "colsample_bylevel": 0.6874325202145412,
+        "colsample_bytree": 0.9715496137104597,
+        "reg_alpha": 0.0022084629913922114,
+        "reg_lambda": 2.4407106398739207
+      },
+      "run_id": "3fade6dd938a4598844a7b7b380fe07c"
+    }
+  ],
+  "fuite": {
+    "famille": "lgbm",
+    "f1_test_fuite": 1.0,
+    "f1_production_simulee": 0.0,
+    "importances": [
+      [
+        "num_dossier_litige",
+        4.0
+      ],
+      [
+        "montant",
+        0.0
+      ],
+      [
+        "anciennete",
+        0.0
+      ],
+      [
+        "freq_24h",
+        0.0
+      ],
+      [
+        "nuit",
+        0.0
+      ]
+    ],
+    "meilleure_config": {
+      "n_estimators": 4,
+      "num_leaves": 8,
+      "min_child_samples": 24,
+      "learning_rate": 0.15080280060326612,
+      "log_max_bin": 7,
+      "colsample_bytree": 1.0,
+      "reg_alpha": 0.0009765625,
+      "reg_lambda": 0.04561250779031766
+    },
+    "duree_s": 30.212
+  }
+}

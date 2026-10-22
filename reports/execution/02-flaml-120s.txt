@@ -1,0 +1,5 @@
+budget 120 s | famille retenue : xgboost | F1 test = 0.8582 | 120.56 s
+familles essayees : ['lgbm', 'rf', 'xgboost', 'extra_tree', 'xgb_limitdepth', 'sgd']
+meilleure config : {'n_estimators': 333, 'max_leaves': 4, 'min_child_weight': np.float64(0.06115052475933034), 'learning_rate': np.float64(0.17876820421463074), 'subsample': np.float64(0.7335343083405597), 'colsample_bylevel': np.float64(0.6874325202145412), 'colsample_bytree': np.float64(0.9715496137104597), 'reg_alpha': np.float64(0.0022084629913922114), 'reg_lambda': np.float64(2.4407106398739207)}
+🏃 View run flaml-120s at: http://127.0.0.1:5001/#/experiments/1/runs/3fade6dd938a4598844a7b7b380fe07c
+🧪 View experiment at: http://127.0.0.1:5001/#/experiments/1

@@ -1,0 +1,7 @@
+2026/10/22 16:05:25 INFO mlflow.tracking.fluent: Experiment with name 'tp4-automl' does not exist. Creating a new experiment.
+🏃 View run reference-logistique at: http://127.0.0.1:5001/#/experiments/1/runs/d4970eaf1bb44b449c046d290336b9ef
+🧪 View experiment at: http://127.0.0.1:5001/#/experiments/1
+reference-logistique   F1 = 0.7407 (entrainement : 0.0827 s)
+🏃 View run manuel-rf-500-16 at: http://127.0.0.1:5001/#/experiments/1/runs/451b2d14395c4ceeb218703bb66b430f
+🧪 View experiment at: http://127.0.0.1:5001/#/experiments/1
+manuel-rf-500-16       F1 = 0.8669 (entrainement : 1.3822 s)

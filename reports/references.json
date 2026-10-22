@@ -1,0 +1,14 @@
+[
+  {
+    "nom": "reference-logistique",
+    "f1": 0.7407,
+    "duree_s": 0.0827,
+    "run_id": "d4970eaf1bb44b449c046d290336b9ef"
+  },
+  {
+    "nom": "manuel-rf-500-16",
+    "f1": 0.8669,
+    "duree_s": 1.3822,
+    "run_id": "451b2d14395c4ceeb218703bb66b430f"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "budget_s": 10,
+  "famille": "lgbm",
+  "f1": 0.8409,
+  "f1_validation": 0.8262,
+  "duree_s": 10.085,
+  "familles_essayees": [
+    "lgbm",
+    "rf",
+    "xgboost",
+    "extra_tree",
+    "sgd"
+  ],
+  "nb_essais": 60,
+  "meilleure_config": {
+    "n_estimators": 104,
+    "num_leaves": 4,
+    "min_child_samples": 43,
+    "learning_rate": 0.6558491573833527,
+    "log_max_bin": 5,
+    "colsample_bytree": 0.9051169955870563,
+    "reg_alpha": 0.0009765625,
+    "reg_lambda": 6.492993307502377
+  },
+  "run_id": "dd4710e2b1394119a903de88327b30c3"
+}

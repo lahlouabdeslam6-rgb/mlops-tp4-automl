@@ -1,0 +1,5 @@
+budget 10 s | famille retenue : lgbm | F1 test = 0.8409 | 10.085 s
+familles essayees : ['lgbm', 'rf', 'xgboost', 'extra_tree', 'sgd']
+meilleure config : {'n_estimators': 104, 'num_leaves': 4, 'min_child_samples': 43, 'learning_rate': np.float64(0.6558491573833527), 'log_max_bin': 5, 'colsample_bytree': np.float64(0.9051169955870563), 'reg_alpha': 0.0009765625, 'reg_lambda': np.float64(6.492993307502377)}
+🏃 View run flaml-10s at: http://127.0.0.1:5001/#/experiments/1/runs/dd4710e2b1394119a903de88327b30c3
+🧪 View experiment at: http://127.0.0.1:5001/#/experiments/1

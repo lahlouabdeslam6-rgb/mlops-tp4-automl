@@ -1,0 +1,1 @@
+VALIDATION OK : donnees, separation train/test, 6 runs, 4 journaux, scores et fuite.

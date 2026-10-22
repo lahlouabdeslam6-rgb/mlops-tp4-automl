@@ -7,3 +7,6 @@ mlartifacts/
 mlruns/
 .vscode/
 server-*.log
+
+# Marqueur local d'orchestration
+reports/references-pretes.txt

@@ -70,3 +70,11 @@ Ce test est une **simulation locale**, sans déploiement en production. Un score
 - Scripts de référence, recherche, inspection, fuite et contrôle dans `src/`.
 
 `data/`, `.venv/`, la base MLflow et ses artefacts sont exclus de Git. Les journaux de recherche et résultats dans `reports/` sont publiés comme demandé. Ils permettent d'inspecter les essais sans reconstruire la base MLflow.
+
+## Rapport de groupe
+
+- [Compte rendu PDF (12 pages)](rapport/TP04_AutoML_Abdelbaki_Khabot_Lahlou_Hafidi_AI_G6.pdf) : page de garde EMSI/Honoris, cinq captures, résultats réels, comparatif et réponses aux six questions.
+- [Captures originales](rapport/captures/) ; le graphique complet est dans [reports/rendement.png](reports/rendement.png).
+- [Réponses en texte](reports/questions.md).
+
+Auteurs : **Zakaria Abdelbaki, Amine Khabot, Ismail Lahlou et Rayane Hafidi - AI, G6**.
